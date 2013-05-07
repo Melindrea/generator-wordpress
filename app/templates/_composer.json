@@ -1,0 +1,10 @@
+{
+    "name": "<%= _.slugify(appname) %>",
+    "version": "0.0.0",
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "config": {
+        "vendor-dir": "app/vendor/"
+    }
+}
